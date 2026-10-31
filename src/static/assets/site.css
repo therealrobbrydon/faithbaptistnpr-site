@@ -1,0 +1,27 @@
+/* Static-site additions: fonts are self-hosted (EB Garamond, DM Sans); forms rebuilt from Squarespace's markup. */
+img[data-src], .sqs-image img, .content-fill img { opacity: 1 !important; }
+[data-animation-role] { opacity: 1 !important; }
+.header-nav-item--folder--open .header-nav-folder-content { pointer-events: auto; opacity: 1; visibility: visible; transform: none; }
+.fbc-form .field-list { display: flex; flex-direction: column; gap: 18px; }
+.fbc-form .form-item label.title, .fbc-form legend.title { display: block; margin-bottom: 6px; font-weight: 500; }
+.fbc-form .field-row { display: flex; gap: 12px; flex-wrap: wrap; }
+.fbc-form .field-row .field { flex: 1 1 180px; display: flex; flex-direction: column-reverse; gap: 4px; }
+.fbc-form .caption { font-size: .85em; opacity: .8; }
+.fbc-form .field-element { width: 100%; box-sizing: border-box; padding: 12px; font: inherit; border: 1px solid currentColor; border-radius: 6px; background: transparent; color: inherit; }
+.fbc-form textarea.field-element { min-height: 120px; }
+.fbc-form fieldset { border: 0; padding: 0; margin: 0; }
+.fbc-form .option label { display: flex; gap: 8px; align-items: center; margin: 4px 0; }
+.fbc-form .form-button-wrapper { margin-top: 22px; }
+.fbc-form .form-submission-text { padding: 16px 0; font-size: 1.1em; }
+.fbc-form .form-error-text { color: #b00020; margin-top: 12px; }
+.fbc-form button[disabled] { opacity: .6; }
+.pagefind-ui { --pagefind-ui-font: inherit; }
+/* gallery grid (was sized by Squarespace JS) */
+.gallery-grid-wrapper{grid-template-columns:repeat(var(--gcols,3),1fr)}
+@media (max-width:767px){.gallery-grid-wrapper{grid-template-columns:repeat(2,1fr)}}
+.gallery-grid-item-wrapper{opacity:1 !important}
+/* summary "autocolumns" design (was positioned by Squarespace JS) */
+.summary-block-setting-design-autocolumns .summary-item-list{display:grid !important;grid-template-columns:repeat(auto-fill,minmax(240px,304px));gap:30px;height:auto !important}
+.summary-block-setting-design-autocolumns .summary-item{position:static !important;width:auto !important;height:auto !important}
+/* mobile menu (slide-in folders, offset below header) */
+.header-menu{padding-top:var(--header-height,154px)}
