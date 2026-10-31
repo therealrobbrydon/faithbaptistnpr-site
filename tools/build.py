@@ -215,3 +215,28 @@ sm += [f'  <url><loc>{ROOT}{u}</loc><lastmod>{today}</lastmod></url>' for u in s
 sm.append('</urlset>')
 open(os.path.join(OUT, 'sitemap.xml'), 'w').write('\n'.join(sm) + '\n')
 print('built', len(urls), 'pages')
+
+# ---- scrub every remaining Squarespace / Typekit reference ----
+import re as _re
+_MISS = []
+_IMG = os.listdir(os.path.join(OUT, 'assets', 'img'))
+def _local_img(m):
+    name = _re.sub(r'[?#].*', '', m.group(0)).rsplit('/', 1)[-1].lower()
+    name = _re.sub(r'\+', '-', name)
+    for f in _IMG:
+        if f.split('-', 1)[-1].lower() == name: return '/assets/img/' + f
+    _MISS.append(m.group(0)); return ''
+_PAT = r'(?:https?:)?//[a-z0-9.-]*(?:squarespace|sqspcdn|typekit)[a-z0-9.-]*\.(?:com|net)[^\s"\'<>)\]]*'
+def scrub(t):
+    t = _re.sub(r'https://study\.faithbaptistnpr\.com/squarespace/([^"\'\s)?]+)(\?v=\d+)?', lambda m: '/assets/ext/' + m.group(1).replace('/', '-'), t)
+    t = _re.sub(r'<style[^>]*>(?:(?!</style>).)*?(?:squarespace|typekit)(?:(?!</style>).)*?</style>', '', t, flags=_re.S)
+    t = _re.sub(r'<link[^>]*(?:squarespace|sqspcdn|typekit)[^>]*>', '', t)
+    t = _re.sub(r'<script[^>]*src="[^"]*(?:squarespace|sqspcdn|typekit)[^"]*"[^>]*>\s*</script>', '', t)
+    t = _re.sub(r'\sdata-block-(?:css|scripts)=(\'[^\']*\'|"[^"]*")', '', t)
+    return _re.sub(_PAT, _local_img, t)
+for dp, _, fs in os.walk(OUT):
+    for f in fs:
+        if f.endswith(('.html', '.xml', '.ics', '.json', '.css', '.js', '.txt')):
+            p = os.path.join(dp, f); t = open(p, encoding='utf-8').read(); n = scrub(t)
+            if n != t: open(p, 'w', encoding='utf-8').write(n)
+print('unmatched squarespace urls:', len(_MISS), sorted(set(_MISS))[:10])
