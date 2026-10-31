@@ -1945,48 +1945,6 @@ section[data-section-id="6ad624e23fbb0218910f24be"] .fe-block-e8df3f14fd233624ce
   section[data-section-id="6ad539cd019c1760228945ba"] .fluid-engine{margin-top:-24px !important;margin-bottom:-24px !important}
 }
 
-/* 40. Oct 19, 2026 Faith Fest (home page only, section "6ad4a53cdc3d0f68428b050): tighter spacing + fall accents.
-   Pure CSS / inline SVG; leaves match the reds, oranges and golds of the Faith Fest banner. Remove after Oct 30. */
-section[data-section-id="6ad4a53cdc3d0f68428b0509"]{position:relative;overflow:hidden;min-height:0 !important}
-section[data-section-id="6ad4a53cdc3d0f68428b0509"] .content-wrapper{position:relative !important}
-section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fluid-engine{position:relative;z-index:1}
-section[data-section-id="6ad4a53cdc3d0f68428b0509"] .content-wrapper::before,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .content-wrapper::after{content:"";position:absolute;pointer-events:none;z-index:0;background-repeat:no-repeat;background-size:contain}
-section[data-section-id="6ad4a53cdc3d0f68428b0509"] .content-wrapper::before{top:18px;right:3%;width:96px;height:96px;background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20100%20100%27%3E%3Cpath%20fill%3D%27%23c8461f%27%20d%3D%27M50%204%20L58%2024%20L70%2016%20L67%2038%20L88%2030%20L80%2046%20L96%2052%20L76%2062%20L80%2074%20L58%2068%20L54%2086%20L52%2086%20L52%2096%20L48%2096%20L48%2086%20L46%2086%20L42%2068%20L20%2074%20L24%2062%20L4%2052%20L20%2046%20L12%2030%20L33%2038%20L30%2016%20L42%2024%20Z%27/%3E%3Cpath%20d%3D%27M50%2030%20V88%20M50%2056%20L30%2044%20M50%2056%20L70%2044%27%20stroke%3D%27white%27%20stroke-opacity%3D%27.35%27%20stroke-width%3D%272%27%20fill%3D%27none%27/%3E%3C/svg%3E");transform:rotate(18deg);opacity:.22}
-section[data-section-id="6ad4a53cdc3d0f68428b0509"] .content-wrapper::after{bottom:22px;left:3%;width:72px;height:72px;background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20100%20100%27%3E%3Cpath%20fill%3D%27%23d98a2b%27%20d%3D%27M50%204%20L58%2024%20L70%2016%20L67%2038%20L88%2030%20L80%2046%20L96%2052%20L76%2062%20L80%2074%20L58%2068%20L54%2086%20L52%2086%20L52%2096%20L48%2096%20L48%2086%20L46%2086%20L42%2068%20L20%2074%20L24%2062%20L4%2052%20L20%2046%20L12%2030%20L33%2038%20L30%2016%20L42%2024%20Z%27/%3E%3Cpath%20d%3D%27M50%2030%20V88%20M50%2056%20L30%2044%20M50%2056%20L70%2044%27%20stroke%3D%27white%27%20stroke-opacity%3D%27.35%27%20stroke-width%3D%272%27%20fill%3D%27none%27/%3E%3C/svg%3E");transform:rotate(-24deg);opacity:.2}
-section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-9f14535d02702a368ac4 h1,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-9f14535d02702a368ac4 h2,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-9f14535d02702a368ac4 h3{position:relative;padding-bottom:12px;margin-bottom:0 !important}
-section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-9f14535d02702a368ac4 h1::after,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-9f14535d02702a368ac4 h2::after,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-9f14535d02702a368ac4 h3::after{content:"";position:absolute;left:0;bottom:0;width:72px;height:3px;border-radius:2px;background:linear-gradient(90deg,#9e1f22,#d0632a 55%,#c9a227)}
-section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413 img{border-radius:10px;box-shadow:0 10px 28px -14px rgba(120,45,15,.45)}
-@media (min-width:768px){
-  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .content-wrapper{padding-top:64px !important;padding-bottom:64px !important}
-  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fluid-engine{display:grid !important;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr) !important;grid-template-rows:auto auto auto !important;column-gap:56px !important;row-gap:16px !important;align-content:center;align-items:start;max-width:1120px;margin:0 auto !important;padding:0 40px;box-sizing:border-box}
-  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fluid-engine>.fe-block{height:auto !important;min-height:0 !important}
-  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413{grid-area:1 / 1 / 4 / 2 !important;align-self:center}
-  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-9f14535d02702a368ac4{grid-area:1 / 2 / 2 / 3 !important;align-self:end}
-  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-229f572f17cbe54c3dba{grid-area:2 / 2 / 3 / 3 !important}
-  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-0fd735ce5fbdd3929ce7{grid-area:3 / 2 / 4 / 3 !important}
-  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413 .sqs-block,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413 .sqs-block-content,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413 .image-block-outer-wrapper,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413 .fluid-image-container,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413 .fluid-image-animation-wrapper,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413 .fluid-image-component-root{height:auto !important;position:relative !important}
-  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413 img{position:static !important;width:100% !important;height:auto !important;object-fit:contain !important}
-  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-9f14535d02702a368ac4 .sqs-block,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-229f572f17cbe54c3dba .sqs-block,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-0fd735ce5fbdd3929ce7 .sqs-block{height:auto !important;padding-top:0 !important;padding-bottom:0 !important}
-  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-229f572f17cbe54c3dba p{margin:0 0 12px !important}
-  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-0fd735ce5fbdd3929ce7{margin-top:4px;width:200px;height:50px !important;justify-self:start}
-  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-0fd735ce5fbdd3929ce7 .sqs-block,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-0fd735ce5fbdd3929ce7 .sqs-block-content{height:50px !important}
-  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-229f572f17cbe54c3dba p:last-child{margin-bottom:0 !important}
-  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .content-wrapper::before{right:4%;top:28px}
-}
-@media (max-width:767px){
-  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .content-wrapper{padding-top:28px !important;padding-bottom:28px !important}
-  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fluid-engine{row-gap:10px !important;grid-template-rows:none !important;grid-auto-rows:auto !important;display:flex !important;flex-direction:column}
-  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fluid-engine>.fe-block{height:auto !important;min-height:0 !important;margin:0 !important}
-  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413 .sqs-block,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413 .sqs-block-content,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413 .image-block-outer-wrapper,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413 .fluid-image-container,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413 .fluid-image-animation-wrapper,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413 .fluid-image-component-root{height:auto !important;position:relative !important}
-  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413 img{position:static !important;width:100% !important;height:auto !important}
-  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .sqs-block{padding-top:0 !important;padding-bottom:0 !important}
-  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-229f572f17cbe54c3dba p{margin:0 0 10px !important}
-  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .content-wrapper::before{display:none}
-  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .content-wrapper::after{display:none}
-  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-9f14535d02702a368ac4 h1,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-9f14535d02702a368ac4 h2,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-9f14535d02702a368ac4 h3{padding-bottom:8px}
-  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fluid-engine{row-gap:8px !important}
-}
-
 /* 41. (v36) Latest Message ("Compelled to Partner") section only: the whole "Compelled" artwork (series-compelled.jpg, 1440x810, 16:9),
    shown uncropped at its natural ratio. On desktop/iPad it fills the right column and is centred vertically across the whole
    section (the text block plus the three earlier-message cards); on phones it stays stacked, full width. */
@@ -2012,7 +1970,7 @@ section[data-section-id="6ad4b2b15538fb48d52a4927"] .fe-block-ee8fe00d9b3493c432
   section[data-section-id="6ad4b2b15538fb48d52a4927"] .fluid-engine{margin-top:calc(-5 * (10.6px + 2.09vw)) !important}
 }
 
-/* 43. Oct 20, 2026 (v37-v38) SENT section (home, duplicate of Faith Fest layout, permanent). Image shown whole (991x558) with its TOP
+/* 43. Oct 20, 2026 (v37-v38) SENT section (home, same layout as the former Sunday-feature section, permanent). Image shown whole (991x558) with its TOP
    aligned to the "SENT" eyebrow; tight section padding like neighbours; smaller eyebrow-to-heading gap. Phones: image stacked above text. */
 section[data-section-id="6ad76809597352532d881624"]{min-height:0 !important}
 section[data-section-id="6ad76809597352532d881624"] .fe-block-0f21ad873c059d3f1a44 img{border-radius:10px;box-shadow:0 10px 28px -14px rgba(0,0,0,.35)}
@@ -2638,7 +2596,7 @@ section[data-section-id="6ad428138b2e341775b902b0"] .accordion-item__description
 #page section[data-section-id="6ad43f9f51ecdf42853aa463"] #block-5e11722bc0de6e384cde .sqs-html-content>p{margin-bottom:12px !important}
 }
 
-/* §58. Desktop header nav: one baseline for links (Home, Faith Fest, Give, Live) and folders (New…Support), centred with logo and button; active underline drawn with ::after so it never shifts layout */
+/* §58. Desktop header nav: one baseline for links (Home, Give, Live) and folders (New…Support), centred with logo and button; active underline drawn with ::after so it never shifts layout */
 .header-display-desktop .header-nav-list{align-items:center !important}
 .header-display-desktop .header-nav-item{display:flex !important;align-items:center !important;align-self:center !important;height:auto !important;padding-top:0 !important;padding-bottom:0 !important}
 .header-display-desktop .header-nav-item>a,.header-display-desktop .header-nav-folder-title{display:inline-flex !important;align-items:center !important;height:auto !important;line-height:1.65 !important;padding:1.44px 0 !important;margin:0 !important;position:relative;background-image:none !important;border-bottom:0 !important;text-decoration:none !important;vertical-align:middle !important}

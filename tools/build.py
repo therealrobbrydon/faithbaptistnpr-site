@@ -141,9 +141,9 @@ past = sorted([e for e in events if e['e'] < NOW], key=lambda e: e['s'], reverse
 
 ls_ = soup('src/templates/events-list.html')
 ls_.select_one('.eventlist--upcoming').clear()
-ls_.select_one('.eventlist--upcoming').append(BeautifulSoup(''.join(list_item(e, False) for e in upcoming), 'lxml').body)
+if upcoming: ls_.select_one('.eventlist--upcoming').append(BeautifulSoup(''.join(list_item(e, False) for e in upcoming), 'lxml').body)
 ls_.select_one('.eventlist--past').clear()
-ls_.select_one('.eventlist--past').append(BeautifulSoup(''.join(list_item(e, True) for e in past), 'lxml').body)
+if past: ls_.select_one('.eventlist--past').append(BeautifulSoup(''.join(list_item(e, True) for e in past), 'lxml').body)
 for b in ls_.select('.eventlist > body'): b.unwrap()
 finalize(ls_, 'events')
 
