@@ -21,6 +21,8 @@ ANNOUNCE = """<div class="sqs-announcement-bar-custom-location"><div class="yui3
 def finalize(s, path):
     """Common post-processing for every page."""
     head = s.head
+    for m in s.select('meta[name=robots]'): m.decompose()
+    head.insert(0, BeautifulSoup('<meta name="robots" content="noindex, nofollow">', 'lxml').meta)
     # self-hosted fonts + site script
     head.append(BeautifulSoup('<link rel="stylesheet" href="/assets/fonts/fonts.css">', 'lxml').link)
     head.append(BeautifulSoup('<link rel="stylesheet" href="/assets/site.css">', 'lxml').link)
