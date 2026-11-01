@@ -1945,6 +1945,47 @@ section[data-section-id="6ad624e23fbb0218910f24be"] .fe-block-e8df3f14fd233624ce
   section[data-section-id="6ad539cd019c1760228945ba"] .fluid-engine{margin-top:-24px !important;margin-bottom:-24px !important}
 }
 
+/* 40b. Nov 1, 2026: 21 Days of Prayer · Seeking Him (home, directly below hero). Same layout as the former Faith Fest section. */
+section[data-section-id="6ad4a53cdc3d0f68428b0509"]{position:relative;overflow:hidden;min-height:0 !important}
+section[data-section-id="6ad4a53cdc3d0f68428b0509"] .content-wrapper{position:relative !important}
+section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fluid-engine{position:relative;z-index:1}
+section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-9f14535d02702a368ac4 h1,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-9f14535d02702a368ac4 h2,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-9f14535d02702a368ac4 h3{position:relative;padding-bottom:12px;margin-bottom:0 !important}
+section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-9f14535d02702a368ac4 h1::after,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-9f14535d02702a368ac4 h2::after,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-9f14535d02702a368ac4 h3::after{content:"";position:absolute;left:0;bottom:0;width:72px;height:3px;border-radius:2px;background:currentColor}
+section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413 img{border-radius:10px;box-shadow:0 10px 28px -14px rgba(0,0,0,.35)}
+@media (min-width:768px){
+  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .content-wrapper{padding-top:64px !important;padding-bottom:64px !important}
+  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fluid-engine{display:grid !important;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr) !important;grid-template-rows:auto auto auto !important;column-gap:56px !important;row-gap:16px !important;align-content:center;align-items:start;max-width:1120px;margin:0 auto !important;padding:0 40px;box-sizing:border-box}
+  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fluid-engine>.fe-block{height:auto !important;min-height:0 !important}
+  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413{grid-area:1 / 1 / 4 / 2 !important;align-self:center}
+  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-9f14535d02702a368ac4{grid-area:1 / 2 / 2 / 3 !important;align-self:end}
+  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-229f572f17cbe54c3dba{grid-area:2 / 2 / 3 / 3 !important}
+  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-0fd735ce5fbdd3929ce7{grid-area:3 / 2 / 4 / 3 !important}
+  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413 .sqs-block,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413 .sqs-block-content,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413 .image-block-outer-wrapper,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413 .fluid-image-container,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413 .fluid-image-animation-wrapper,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413 .fluid-image-component-root{height:auto !important;position:relative !important}
+  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413 img{position:static !important;width:100% !important;height:auto !important;object-fit:contain !important}
+  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-9f14535d02702a368ac4 .sqs-block,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-229f572f17cbe54c3dba .sqs-block,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-0fd735ce5fbdd3929ce7 .sqs-block{height:auto !important;padding-top:0 !important;padding-bottom:0 !important}
+  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-229f572f17cbe54c3dba p{margin:0 0 12px !important}
+  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-0fd735ce5fbdd3929ce7{margin-top:4px;width:200px;height:50px !important;justify-self:start}
+  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-0fd735ce5fbdd3929ce7 .sqs-block,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-0fd735ce5fbdd3929ce7 .sqs-block-content{height:50px !important}
+  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-229f572f17cbe54c3dba p:last-child{margin-bottom:0 !important}
+}
+@media (max-width:767px){
+  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .content-wrapper{padding-top:28px !important;padding-bottom:28px !important}
+  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fluid-engine{row-gap:10px !important;grid-template-rows:none !important;grid-auto-rows:auto !important;display:flex !important;flex-direction:column}
+  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fluid-engine>.fe-block{height:auto !important;min-height:0 !important;margin:0 !important}
+  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413 .sqs-block,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413 .sqs-block-content,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413 .image-block-outer-wrapper,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413 .fluid-image-container,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413 .fluid-image-animation-wrapper,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413 .fluid-image-component-root{height:auto !important;position:relative !important}
+  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-a2589d54830471454413 img{position:static !important;width:100% !important;height:auto !important}
+  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .sqs-block{padding-top:0 !important;padding-bottom:0 !important}
+  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-229f572f17cbe54c3dba p{margin:0 0 10px !important}
+  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .content-wrapper::before{display:none}
+  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .content-wrapper::after{display:none}
+  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-9f14535d02702a368ac4 h1,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-9f14535d02702a368ac4 h2,section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fe-block-9f14535d02702a368ac4 h3{padding-bottom:8px}
+  section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fluid-engine{row-gap:8px !important}
+}
+
+section[data-section-id="6ad4a53cdc3d0f68428b0509"] .fbc-eyebrow{font-size:.85rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;margin:0 0 6px !important;opacity:.8}
+html body #page section.page-section[data-section-id="6ad4a53cdc3d0f68428b0509"] > .content-wrapper{padding-top:28px !important;padding-bottom:28px !important}
+@media (min-width:768px){html body #page section.page-section[data-section-id="6ad4a53cdc3d0f68428b0509"] > .content-wrapper{padding-top:64px !important;padding-bottom:64px !important}}
+
 /* 41. (v36) Latest Message ("Compelled to Partner") section only: the whole "Compelled" artwork (series-compelled.jpg, 1440x810, 16:9),
    shown uncropped at its natural ratio. On desktop/iPad it fills the right column and is centred vertically across the whole
    section (the text block plus the three earlier-message cards); on phones it stays stacked, full width. */
