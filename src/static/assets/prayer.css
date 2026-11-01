@@ -1,0 +1,34 @@
+/* 21 Days of Prayer section (content from fbcbelong.com/prayer) */
+.fbp-wrap{display:block;width:100%;clear:both}
+.fbp-hero img{display:block;width:100%;height:auto}
+.fbp{max-width:1140px;margin:0 auto;padding:24px 20px 64px;box-sizing:border-box;line-height:1.6}
+.fbp *{box-sizing:border-box}
+.fbp img{max-width:100%;height:auto}
+.fbp-subnav ul{list-style:none;margin:0 0 28px;padding:0;display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.fbp-subnav a{display:block;padding:.55em 1em;border:1px solid #9F2022;border-radius:4px;color:#9F2022;text-decoration:none;font-size:15px;line-height:1.2;white-space:nowrap}
+.fbp-subnav a:hover,.fbp-subnav a[aria-current]{background:#9F2022;color:#fff}
+.fbp-title{text-align:center;margin:0 0 24px}
+.fbp-body .row{display:flex;flex-wrap:wrap;margin:0 -15px}
+.fbp-body [class*="col-"]{width:100%;padding:0 15px}
+@media(min-width:576px){.fbp-body .col-sm-6{width:50%}}
+@media(min-width:768px){.fbp-body .col-md-6{width:50%}}
+@media(min-width:992px){.fbp-body .col-lg-4{width:33.333%}.fbp-body .col-lg-3{width:25%}}
+.fbp-body .text-center{text-align:center}
+.fbp-body .mt-3{margin-top:1rem}.fbp-body .mb-3{margin-bottom:1rem}.fbp-body .pb-1{padding-bottom:.25rem}.fbp-body .pb-5{padding-bottom:3rem}
+.fbp-body .text-white,.fbp-body .text-white *{color:#fff}
+.fbp-body .clearfix::after{content:"";display:table;clear:both}
+.fbp-body hr{border:0;border-top:1px solid #e5e5e5}
+.fbp-body .embed-responsive{position:relative;padding-top:56.25%;overflow:hidden}
+.fbp-body .embed-responsive iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.fbp-body blockquote{margin:1em 0;padding-left:1em;border-left:3px solid #9F2022}
+.fbp-body table{max-width:100%}
+.fbp-body p{overflow-wrap:anywhere}
+.fbp-acc{border:1px solid #ddd;border-radius:4px;margin:0 0 10px;background:#fff}
+.fbp-acc summary{cursor:pointer;padding:12px 16px;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.fbp-acc summary::-webkit-details-marker{display:none}
+.fbp-acc summary::after{content:"+";font-size:24px;color:#9F2022;line-height:1}
+.fbp-acc[open] summary::after{content:"\2212"}
+.fbp-acc summary h3{margin:0;font-size:18px}
+.fbp-acc-body{padding:0 16px 16px}
+.fbp-kids{max-width:1000px;width:100%;box-shadow:0 0 15px rgba(0,0,0,.25)}
+.fbp-btn{display:inline-block;margin-top:20px;padding:.8em 1.2em;background:#9F2022;color:#fff!important;text-decoration:none;border-radius:4px}
