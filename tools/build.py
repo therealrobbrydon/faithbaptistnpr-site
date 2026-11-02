@@ -87,12 +87,20 @@ for e in events:
     e['e'] = dt.datetime.fromisoformat(e['end_utc'].replace('Z', '+00:00'))
     e['ls'], e['le'] = e['s'].astimezone(TZ), e['e'].astimezone(TZ)
     e['multiday'] = e['ls'].date() != e['le'].date()
+    # optional flags: hide_time (date only) / hide_end (start time only) when the church gives no time / end time.
+    # end_utc is then only used to decide when the event has passed; it is never shown.
+    e['no_time'] = bool(e.get('hide_time'))
+    e['no_end'] = e['no_time'] or bool(e.get('hide_end'))
+    if e['no_end']: e['multiday'] = False
 
 def t12(d): return d.strftime('%I:%M %p').lstrip('0')
 def longdate(d): return f"{d.strftime('%A, %B')} {d.day}, {d.year}"
 def shortdate(d): return f"{d.strftime('%a, %b')} {d.day}, {d.year}"
 def gcal(e):
-    q = {'action': 'TEMPLATE', 'text': e['title'], 'dates': e['s'].strftime('%Y%m%dT%H%M%SZ') + '/' + e['e'].strftime('%Y%m%dT%H%M%SZ')}
+    if e['no_time']: dates = f"{e['ls']:%Y%m%d}/{(e['ls'] + dt.timedelta(days=1)):%Y%m%d}"
+    elif e['no_end']: dates = e['s'].strftime('%Y%m%dT%H%M%SZ') + '/' + e['s'].strftime('%Y%m%dT%H%M%SZ')
+    else: dates = e['s'].strftime('%Y%m%dT%H%M%SZ') + '/' + e['e'].strftime('%Y%m%dT%H%M%SZ')
+    q = {'action': 'TEMPLATE', 'text': e['title'], 'dates': dates}
     if e['location']['lines']: q['location'] = ', '.join(e['location']['lines'])
     return 'https://www.google.com/calendar/event?' + urllib.parse.urlencode(q, quote_via=urllib.parse.quote)
 def maplink(e): return 'https://maps.google.com?q=' + ' '.join(e['location']['lines']) + ' '
@@ -101,6 +109,12 @@ def datetime_meta(e, kind):
     """kind: 'eventitem' or 'eventlist'"""
     fmt = longdate if kind == 'eventitem' else (shortdate if e['multiday'] else longdate)
     ls, le = e['ls'], e['le']
+    if e['no_time']:
+        return f'<li class="{kind}-meta-item {kind}-meta-date event-meta-item"><time class="event-date" datetime="{ls:%Y-%m-%d}">{fmt(ls)}</time></li>'
+    if e['no_end']:
+        return (f'<li class="{kind}-meta-item {kind}-meta-date event-meta-item"><time class="event-date" datetime="{ls:%Y-%m-%d}">{fmt(ls)}</time></li>'
+                f'<li class="{kind}-meta-item {kind}-meta-time event-meta-item"><span class="event-time-localized">'
+                f'<time class="event-time-localized-start" datetime="{ls:%Y-%m-%d}">{t12(ls)}</time></span></li>')
     if e['multiday']:
         sep = '<br>' if kind == 'eventitem' else ''
         return (f'<li class="{kind}-meta-item {kind}-meta-date event-meta-item"><time class="event-date" datetime="{ls:%Y-%m-%d}">{fmt(ls)}</time>'
@@ -197,7 +211,7 @@ for i, e in enumerate(order):
     finalize(s, f'events/{e["slug"]}')
     loc_txt = ', '.join(e['location']['lines'])
     ics = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Faith Baptist Church//Events//EN', 'BEGIN:VEVENT',
-           f'UID:{e["slug"]}@faithbaptistnpr.com', f'DTSTAMP:{e["s"]:%Y%m%dT%H%M%SZ}', f'DTSTART:{e["s"]:%Y%m%dT%H%M%SZ}', f'DTEND:{e["e"]:%Y%m%dT%H%M%SZ}',
+           f'UID:{e["slug"]}@faithbaptistnpr.com', f'DTSTAMP:{e["s"]:%Y%m%dT%H%M%SZ}'] + ([f'DTSTART;VALUE=DATE:{e["ls"]:%Y%m%d}'] if e['no_time'] else [f'DTSTART:{e["s"]:%Y%m%dT%H%M%SZ}']) + ([] if e['no_end'] else [f'DTEND:{e["e"]:%Y%m%dT%H%M%SZ}']) + [
            f'SUMMARY:{ics_escape(e["title"])}', f'URL:{url}'] + ([f'LOCATION:{ics_escape(loc_txt)}'] if loc_txt else []) + ['END:VEVENT', 'END:VCALENDAR']
     open(os.path.join(OUT, 'events', f'{e["slug"]}.ics'), 'w').write('\r\n'.join(ics) + '\r\n')
 
