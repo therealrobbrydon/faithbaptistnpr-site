@@ -3092,3 +3092,9 @@ body:not(#collection-6ad4202b5139fe3635590437) #page .page-section:not([data-sec
 #block-yui_3_17_2_1_1793197118592_2781 .summary-thumbnail-container{overflow:hidden !important}
 #block-yui_3_17_2_1_1793197118592_2781 .summary-thumbnail img{max-width:100% !important;width:100% !important;height:auto !important;left:0 !important;top:0 !important;position:relative !important;object-fit:cover}
 }
+
+/* §v89 /events list header clearance on phones (Rob: menu/header must never overlap content). The mobile .page-section rule pads every section 56px, but the events list's first section lives in #sections (not .region), so §4's header-height padding never applied and the header box (logo tagline included) covered the top ~25px of the first event image at 390. Pad it by the live --header-height instead and drop the list's own top padding so the gap stays ~34px. Event item pages already clear via .events-item-wrapper. */
+@media (max-width:767px){
+.view-list.collection-type-events-stacked #sections>.page-section:first-child{padding-top:var(--header-height,154px) !important}
+.view-list.collection-type-events-stacked .sqs-events-collection-list{padding-top:0 !important}
+}
