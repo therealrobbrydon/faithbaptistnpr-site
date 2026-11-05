@@ -224,13 +224,9 @@ for f in sorted(glob.glob('src/pages/**/*.html', recursive=True)):
     finalize(soup(f), path)
 
 # ---------- sitemap ----------
-urls = ['/' if p == 'home' else f'/{p}' for p in pages] + ['/events'] + [f'/events/{e["slug"]}' for e in events]
-today = dt.date.today().isoformat()
-sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
-sm += [f'  <url><loc>{ROOT}{u}</loc><lastmod>{today}</lastmod></url>' for u in sorted(urls)]
-sm.append('</urlset>')
-open(os.path.join(OUT, 'sitemap.xml'), 'w').write('\n'.join(sm) + '\n')
-print('built', len(urls), 'pages')
+# Removed Nov 5, 2026 (Rob): keep faithbaptistnpr.com out of Google.
+# No sitemap.xml is generated any more; robots.txt disallows all crawling.
+print('built', len(pages) + 1 + len(events), 'pages')
 
 # ---- scrub every remaining Squarespace / Typekit reference ----
 import re as _re

@@ -1,26 +1,5 @@
 [
  {
-  "slug": "first-wednesday-service",
-  "title": "First Wednesday Service",
-  "start_utc": "2026-11-04T23:30:00Z",
-  "end_utc": "2026-11-05T00:30:00Z",
-  "date_text": "Wednesday, November 4, 2026",
-  "location": {
-   "name": "Chapel, Faith Baptist Church",
-   "lines": [
-    "9230 Ridge Road",
-    "New Port Richey, Florida, 34654",
-    "United States"
-   ]
-  },
-  "image": "/assets/img/391d3c2d75-event-first-wednesday-2026-11-04.jpg",
-  "image_dimensions": "960x540",
-  "og_image": "https://faithbaptistnpr.com/assets/misc/a11259496e-event-first-wednesday-2026-11-04.jpg",
-  "description": "Join us this, Wednesday, November 4, for our First Wednesday Service!",
-  "excerpt_html": "",
-  "body_html": "<div class=\"sqs-layout sqs-grid-12 columns-12\" data-layout-label=\"Post Body\" data-type=\"item\" id=\"item-6ae4a4c732106164ec71e0e0\"><div class=\"row sqs-row\"><div class=\"col sqs-col-12 span-12\"><div class=\"sqs-block website-component-block sqs-block-website-component sqs-block-html html-block\" data-block-css='[\"https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.html/77c6406b-3b26-444a-81d4-ce1b18757c86_1027/website.components.html.styles.css\"]' data-block-scripts='[\"https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.html/77c6406b-3b26-444a-81d4-ce1b18757c86_1027/website.components.html.visitor.js\"]' data-block-type=\"1337\" data-definition-name=\"website.components.html\" data-sqsp-block=\"text\" data-website-component-id=\"27260e403c5b83c0f792\" id=\"block-27260e403c5b83c0f792\"><div class=\"sqs-block-content\"><div class=\"sqs-text-block-container\">\n<div class=\"sqs-html-content\" data-sqsp-text-block-content=\"\"><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Join us this, Wednesday, November 4, for our First Wednesday Service!</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Come worship, pray, and be encouraged as we gather together as a church family.</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">6:30 PM / The Chapel</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">We look forward to seeing you there!</p></div>\n<style id=\"container-styles\">#block-27260e403c5b83c0f792 {\n    \n    --stroke-style: none;--stroke-thickness: 2px;\n    \n      --tweak-text-block-stroke-color: hsla(var(--black-hsl), 1)\n;\n      \n      \n      \n    \n\n\n\n  }\n\n  #block-27260e403c5b83c0f792 .sqs-html-content {\n    \n    --tweak-text-block-padding: 6% 6% 6% 6%;\n  --tweak-text-block-padding: initial;\n}\n\n  #block-27260e403c5b83c0f792 {\n      mix-blend-mode: var(--tweak-text-block-blend\n  );\n      border-radius: var(--tweak-text-block-radius);\n  }\n\n  \n  \n#block-27260e403c5b83c0f792 {\n      --tweak-text-block-radius: 0px 0px 0px 0px;\n    }\n\n\n  \n  #block-27260e403c5b83c0f792 {\n      --tweak-text-block-blend\n  : normal;\n    }\n  \n\n  #block-27260e403c5b83c0f792 {\n    --blur-value: blur(15px);}\n\n</style>\n<style id=\"override-container-styles\">\n    @media screen and (max-width: 767px) {\n          \n            \n\n#block-27260e403c5b83c0f792 {\n            \n            }\n        }\n    \n  \n    @media screen and (max-width: 767px) {\n          #block-27260e403c5b83c0f792 .sqs-html-content {\n            \n            }\n        }\n    \n  @media screen and (max-width: 767px) {\n          \n          \n\n          \n          \n          \n        }</style>\n<style class=\"transform-vars\">\n    #block-27260e403c5b83c0f792 {\n      --opacity: 100%;\n      --translate-x: 0px;\n      --translate-y: 0px;\n      --rotation: 0deg;\n      --scale-x: 100%;\n      --scale-y: 100%;\n      --skew-x: 0deg;\n      --skew-y: 0deg;\n      --origin-x: 50%;\n      --origin-y: 50%;\n      --block-transform: none;\n\n      opacity: var(--opacity, 1);\n      transform: var(--block-transform);\n      transform-origin: var(--origin-x) var(--origin-y);\n    }\n  </style><style class=\"transform-overrides-vars\">\n</style>\n</div>\n</div></div></div></div></div>\n<div class=\"eventitem-content-footer\">\n</div>"
- },
- {
   "slug": "mens-breakfast",
   "title": "Men’s Breakfast",
   "start_utc": "2026-11-07T13:00:00Z",
