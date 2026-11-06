@@ -117,9 +117,9 @@ def datetime_meta(e, kind):
                 f'<time class="event-time-localized-start" datetime="{ls:%Y-%m-%d}">{t12(ls)}</time></span></li>')
     if e['multiday']:
         sep = '<br>' if kind == 'eventitem' else ''
-        return (f'<li class="{kind}-meta-item {kind}-meta-date event-meta-item"><time class="event-date" datetime="{ls:%Y-%m-%d}">{fmt(ls)}</time>'
+        return (f'<li class="{kind}-meta-item {kind}-meta-date event-meta-item"><time class="event-date" datetime="{ls:%Y-%m-%d}">{fmt(ls)}</time> '
                 f'<span class="{kind}-meta-time"><time class="event-time-localized" datetime="{ls:%Y-%m-%d}">{t12(ls)}</time></span>'
-                f'<span class="event-datetime-divider"></span>{sep}<time class="event-date" datetime="{le:%Y-%m-%d}">{fmt(le)}</time>'
+                f'<span class="event-datetime-divider"></span>{sep}<time class="event-date" datetime="{le:%Y-%m-%d}">{fmt(le)}</time> '
                 f'<span class="{kind}-meta-time"><time class="event-time-localized" datetime="{le:%Y-%m-%d}">{t12(le)}</time></span></li>')
     return (f'<li class="{kind}-meta-item {kind}-meta-date event-meta-item"><time class="event-date" datetime="{ls:%Y-%m-%d}">{fmt(ls)}</time></li>'
             f'<li class="{kind}-meta-item {kind}-meta-time event-meta-item"><span class="event-time-localized">'
