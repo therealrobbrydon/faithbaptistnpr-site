@@ -188,6 +188,26 @@
   "body_html": "<div class=\"sqs-layout sqs-grid-12 columns-12\" data-layout-label=\"Post Body\" data-type=\"item\"><div class=\"row sqs-row\"><div class=\"col sqs-col-12 span-12\"><div class=\"sqs-block html-block sqs-block-html\" data-block-type=\"2\"><div class=\"sqs-block-content\"><div class=\"sqs-html-content\"><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Following Thanksgiving Service</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Join us for a sweet time of dessert and fellowship. Sign up here to bring a pie:</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\"><a href=\"https://fbcbelong.ccbchurch.com/goto/forms/744/responses/new\" target=\"_blank\" rel=\"noopener\">Sign up</a></p></div></div></div></div></div></div>"
  },
  {
+  "slug": "decorate-for-christmas",
+  "title": "Decorate for Christmas",
+  "start_utc": "2026-11-24T15:00:00Z",
+  "end_utc": "2026-11-28T17:00:00Z",
+  "date_text": "Tuesday, November 24, 2026",
+  "location": {
+   "name": "Faith Baptist Church",
+   "lines": [
+    "9230 Ridge Road",
+    "New Port Richey, FL 34654"
+   ]
+  },
+  "image": "/assets/img/event-decorate-for-christmas-2026-11-24.jpg",
+  "image_dimensions": "2000x1333",
+  "og_image": "https://faithbaptistnpr.com/assets/img/event-decorate-for-christmas-2026-11-24.jpg",
+  "description": "Come and help us decorate the church for Christmas! Tuesday, November 24 and Saturday, November 28. Sign up for a decorating shift.",
+  "excerpt_html": "<div class=\"sqs-layout sqs-grid-12 columns-12\" data-layout-label=\"Post Body\" data-type=\"item\"><div class=\"row sqs-row\"><div class=\"col sqs-col-12 span-12\"><div class=\"sqs-block html-block sqs-block-html\" data-block-type=\"2\"><div class=\"sqs-block-content\"><div class=\"sqs-html-content\"><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Come and help us decorate the church for Christmas! Sign up here:</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\"><a href=\"https://www.signupgenius.com/go/10C0F4AA8A82AA5FDC43-67204431-christmas?useFullSite=true#/\" target=\"_blank\" rel=\"noopener\">Sign up</a></p></div></div></div></div></div></div>",
+  "body_html": "<div class=\"sqs-layout sqs-grid-12 columns-12\" data-layout-label=\"Post Body\" data-type=\"item\"><div class=\"row sqs-row\"><div class=\"col sqs-col-12 span-12\"><div class=\"sqs-block html-block sqs-block-html\" data-block-type=\"2\"><div class=\"sqs-block-content\"><div class=\"sqs-html-content\"><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Come and help us decorate the church for Christmas! Sign up here:</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\"><a href=\"https://www.signupgenius.com/go/10C0F4AA8A82AA5FDC43-67204431-christmas?useFullSite=true#/\" target=\"_blank\" rel=\"noopener\">Sign up</a></p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Volunteer shifts:</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Tuesday, November 24, 10:00 AM–12:00 PM: Chapel Lobby and Annex; Chapel Hallway; Chapel Large tree and worship center.</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Tuesday, November 24, 2:00–4:00 PM: Connection point tree and room; Worship center Lobby; Worship center – stage and balcony.</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Saturday, November 28, 10:00 AM–12:00 PM: Outside Lights.</p></div></div></div></div></div></div>"
+ },
+ {
   "slug": "womens-breakfast",
   "title": "Women's Breakfast",
   "start_utc": "2026-12-05T14:00:00Z",
@@ -206,6 +226,27 @@
   "description": "Ladies, sign up to bring a dish and join us for a sweet time of encouragment and fellowship.",
   "excerpt_html": "<div class=\"sqs-layout sqs-grid-12 columns-12\" data-layout-label=\"Post Body\" data-type=\"item\"><div class=\"row sqs-row\"><div class=\"col sqs-col-12 span-12\"><div class=\"sqs-block html-block sqs-block-html\" data-block-type=\"2\"><div class=\"sqs-block-content\"><div class=\"sqs-html-content\"><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Ladies, sign up to bring a dish and join us for a sweet time of encouragment and fellowship.</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\"><a href=\"https://fbcbelong.ccbchurch.com/goto/forms/741/responses/new\" target=\"_blank\" rel=\"noopener\">Sign up</a></p></div></div></div></div></div></div>",
   "body_html": "<div class=\"sqs-layout sqs-grid-12 columns-12\" data-layout-label=\"Post Body\" data-type=\"item\"><div class=\"row sqs-row\"><div class=\"col sqs-col-12 span-12\"><div class=\"sqs-block html-block sqs-block-html\" data-block-type=\"2\"><div class=\"sqs-block-content\"><div class=\"sqs-html-content\"><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Ladies, sign up to bring a dish and join us for a sweet time of encouragment and fellowship.</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\"><a href=\"https://fbcbelong.ccbchurch.com/goto/forms/741/responses/new\" target=\"_blank\" rel=\"noopener\">Sign up</a></p></div></div></div></div></div></div>"
+ },
+ {
+  "slug": "seniors-idlewild-christmas-production",
+  "title": "Melodies of Christmas Production at Idlewild",
+  "start_utc": "2026-12-12T19:15:00Z",
+  "end_utc": "2026-12-13T04:59:00Z",
+  "hide_end": true,
+  "date_text": "Saturday, December 12, 2026",
+  "location": {
+   "name": "Idlewild Baptist Church",
+   "lines": [
+    "Idlewild Baptist Church",
+    "Tampa, FL"
+   ]
+  },
+  "image": "/assets/img/event-seniors-idlewild-christmas-2026-12-12.jpg",
+  "image_dimensions": "1672x941",
+  "og_image": "https://faithbaptistnpr.com/assets/img/event-seniors-idlewild-christmas-2026-12-12.jpg",
+  "description": "🎄You are invited to join our Seniors Ministry as they attend the annual Christmas Production at Idlewild Baptist Church! “Melodies of Christmas,” Saturday, December 12, 4 PM. Meet at Faith at 2:15 PM. Tickets $18 by cash or check, $20 online. Sign up by Monday, November 16.",
+  "excerpt_html": "<div class=\"sqs-layout sqs-grid-12 columns-12\" data-layout-label=\"Post Body\" data-type=\"item\"><div class=\"row sqs-row\"><div class=\"col sqs-col-12 span-12\"><div class=\"sqs-block html-block sqs-block-html\" data-block-type=\"2\"><div class=\"sqs-block-content\"><div class=\"sqs-html-content\"><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">🎄You are invited to join our Seniors Ministry as they attend the annual Christmas Production at Idlewild Baptist Church!</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">“Melodies of Christmas” — Saturday, December 12, 4 PM to 6 PM, at Idlewild in Tampa.</p></div></div></div></div></div></div>",
+  "body_html": "<div class=\"sqs-layout sqs-grid-12 columns-12\" data-layout-label=\"Post Body\" data-type=\"item\"><div class=\"row sqs-row\"><div class=\"col sqs-col-12 span-12\"><div class=\"sqs-block html-block sqs-block-html\" data-block-type=\"2\"><div class=\"sqs-block-content\"><div class=\"sqs-html-content\"><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">🎄You are invited to join our Seniors Ministry as they attend the annual Christmas Production at Idlewild Baptist Church!</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">“Melodies of Christmas” — Saturday, December 12, 4 PM to 6 PM, at Idlewild in Tampa.</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Meet at Faith at 2:15 PM, leaving at 2:30 PM. From the church property, you may drive separately or carpool to Idlewild in Tampa. The group plans to stop for dinner after the production before returning to Faith.</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Tickets: 36 reserved, first-come, first-served. Your ticket will be reserved when payment is received.</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Cost: $18 if paying by cash or check made payable to Faith Baptist Church (memo: “Idlewild Christmas Production”); $20 if paying online.</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Tickets will be available until Monday, November 16.</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\"><a href=\"https://fbcbelong.ccbchurch.com/goto/forms/745/responses/new\" target=\"_blank\" rel=\"noopener\">Sign up</a></p></div></div></div></div></div></div>"
  },
  {
   "slug": "2027-fs-winter-retreat",
