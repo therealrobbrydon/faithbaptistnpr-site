@@ -25,3 +25,12 @@ img[data-src], .sqs-image img, .content-fill img { opacity: 1 !important; }
 .summary-block-setting-design-autocolumns .summary-item{position:static !important;width:auto !important;height:auto !important}
 /* mobile menu (slide-in folders, offset below header) */
 .header-menu{padding-top:var(--header-height,154px)}
+/* Event date/time divider: the mirrored Squarespace rule content:" \2013 "
+   loses its trailing space (consumed as the CSS escape terminator), so ranges
+   rendered as "8:00 AM –10:30 AM". Restore a space on both sides of the dash. */
+.event-datetime-divider::before{content:" \2013  " !important}
+/* Events list/item wrappers ship as data-height=large (10vw top/bottom padding
+   + 100vh min-height), which left a ~200px void above the events list and a
+   large gap before the footer on event pages. Trim to normal spacing. */
+.cdk-section[data-definition-name="website.components.eventsList"] .events-list[data-height=large],
+.cdk-section[data-definition-name="website.components.eventsItem"] .events-item-wrapper[data-height=large]{min-height:0;padding-top:24px;padding-bottom:48px}

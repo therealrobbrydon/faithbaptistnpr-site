@@ -185,7 +185,7 @@ for i, e in enumerate(order):
         lines = ''.join(f'<span class="eventitem-meta-address-line">{E_(l)}</span>' for l in e['location']['lines'])
         nm = f'<span class="eventitem-meta-address-line eventitem-meta-address-line--title">{E_(e["location"]["name"])}</span>' if e['location']['name'] else ''
         loc = (f'<ul class="eventitem-meta event-meta event-meta-address-container" data-content-field="location"><li class="eventitem-meta-item eventitem-meta-address">'
-               f'{nm}{lines}<a class="eventitem-meta-address-maplink" href="{E_(maplink(e))}" target="_blank">(map)</a></li></ul>')
+               f'{nm}{lines} <a class="eventitem-meta-address-maplink" href="{E_(maplink(e))}" target="_blank">(map)</a></li></ul>')
     art = (f'<article class="eventitem" id="article-{e["slug"]}">' + (f'<img class="fbc-event-img" src="{e["image"]}" loading="eager" alt="{E_(e["title"])} at Faith Baptist Church">' if e['image'] else '') + f'<div class="eventitem-column-meta"><h1 class="eventitem-title" data-content-field="title">{E_(e["title"])}</h1>'
            f'<ul class="eventitem-meta event-meta event-meta-date-time-container" data-content-field="event-date-time-range">{datetime_meta(e, "eventitem")}</ul>{loc}'
            f'<ul class="eventitem-meta event-meta event-meta-addtocalendar-container">{export_li(e, "eventitem")}</ul></div>'
