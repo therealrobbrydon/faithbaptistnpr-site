@@ -1,23 +1,5 @@
 [
  {
-  "slug": "operation-christmas-child",
-  "title": "Operation Christmas Child",
-  "start_utc": "2026-11-15T05:00:00Z",
-  "end_utc": "2026-11-16T04:59:00Z",
-  "hide_time": true,
-  "date_text": "Sunday, November 15, 2026",
-  "location": {
-   "name": "",
-   "lines": []
-  },
-  "image": "/assets/img/event-operation-christmas-child-2026-11-15.jpg",
-  "image_dimensions": "1080x608",
-  "og_image": "https://faithbaptistnpr.com/assets/img/event-operation-christmas-child-2026-11-15.jpg",
-  "description": "🎁✨ Operation Christmas Child! 🎁🌍 Help us share the love of Jesus with children around the world, one shoebox at a time! 📦 Pick up your shoebox in the foyer after either worship service. ⚠️Please return your packed shoeboxes by November 15!",
-  "excerpt_html": "<div class=\"sqs-layout sqs-grid-12 columns-12\" data-layout-label=\"Post Body\" data-type=\"item\"><div class=\"row sqs-row\"><div class=\"col sqs-col-12 span-12\"><div class=\"sqs-block html-block sqs-block-html\" data-block-type=\"2\"><div class=\"sqs-block-content\"><div class=\"sqs-html-content\"><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">🎁✨ Operation Christmas Child! 🎁🌍</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Help us share the love of Jesus with children around the world, one shoebox at a time!</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">📦 Pick up your shoebox in the foyer after either worship service.</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">⚠️Please return your packed shoeboxes by November 15!</p></div></div></div></div></div></div>",
-  "body_html": "<div class=\"sqs-layout sqs-grid-12 columns-12\" data-layout-label=\"Post Body\" data-type=\"item\"><div class=\"row sqs-row\"><div class=\"col sqs-col-12 span-12\"><div class=\"sqs-block html-block sqs-block-html\" data-block-type=\"2\"><div class=\"sqs-block-content\"><div class=\"sqs-html-content\"><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">🎁✨ Operation Christmas Child! 🎁🌍</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Help us share the love of Jesus with children around the world, one shoebox at a time!</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">📦 Pick up your shoebox in the foyer after either worship service.</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">⚠️Please return your packed shoeboxes by November 15!</p></div></div></div></div></div></div>"
- },
- {
   "slug": "biblical-fasting-seminar-part-2",
   "title": "Biblical Fasting Seminar: Part #2",
   "start_utc": "2026-11-18T23:30:00Z",
