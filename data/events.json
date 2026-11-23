@@ -1,26 +1,5 @@
 [
  {
-  "slug": "pie-fellowship",
-  "title": "Pie Fellowship",
-  "start_utc": "2026-11-22T05:00:00Z",
-  "end_utc": "2026-11-23T04:59:00Z",
-  "hide_time": true,
-  "date_text": "Sunday, November 22, 2026",
-  "location": {
-   "name": "Chapel, Faith Baptist Church",
-   "lines": [
-    "9230 Ridge Road",
-    "New Port Richey, FL 34654"
-   ]
-  },
-  "image": "/assets/img/event-pie-fellowship-stock.jpg",
-  "image_dimensions": "1600x900",
-  "og_image": "https://faithbaptistnpr.com/assets/img/event-pie-fellowship-stock.jpg",
-  "description": "Following Thanksgiving Service Join us for a sweet time of dessert and fellowship. Sign up here to bring a pie:",
-  "excerpt_html": "<div class=\"sqs-layout sqs-grid-12 columns-12\" data-layout-label=\"Post Body\" data-type=\"item\"><div class=\"row sqs-row\"><div class=\"col sqs-col-12 span-12\"><div class=\"sqs-block html-block sqs-block-html\" data-block-type=\"2\"><div class=\"sqs-block-content\"><div class=\"sqs-html-content\"><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Following Thanksgiving Service</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Join us for a sweet time of dessert and fellowship. Sign up here to bring a pie:</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\"><a href=\"https://fbcbelong.ccbchurch.com/goto/forms/744/responses/new\" target=\"_blank\" rel=\"noopener\">Sign up</a></p></div></div></div></div></div></div>",
-  "body_html": "<div class=\"sqs-layout sqs-grid-12 columns-12\" data-layout-label=\"Post Body\" data-type=\"item\"><div class=\"row sqs-row\"><div class=\"col sqs-col-12 span-12\"><div class=\"sqs-block html-block sqs-block-html\" data-block-type=\"2\"><div class=\"sqs-block-content\"><div class=\"sqs-html-content\"><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Following Thanksgiving Service</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Join us for a sweet time of dessert and fellowship. Sign up here to bring a pie:</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\"><a href=\"https://fbcbelong.ccbchurch.com/goto/forms/744/responses/new\" target=\"_blank\" rel=\"noopener\">Sign up</a></p></div></div></div></div></div></div>"
- },
- {
   "slug": "decorate-for-christmas",
   "title": "Decorate for Christmas",
   "start_utc": "2026-11-24T15:00:00Z",
