@@ -61,6 +61,24 @@
   "body_html": "<div class=\"sqs-layout sqs-grid-12 columns-12\" data-layout-label=\"Post Body\" data-type=\"item\"><div class=\"row sqs-row\"><div class=\"col sqs-col-12 span-12\"><div class=\"sqs-block html-block sqs-block-html\" data-block-type=\"2\"><div class=\"sqs-block-content\"><div class=\"sqs-html-content\"><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">🎄You are invited to join our Seniors Ministry as they attend the annual Christmas Production at Idlewild Baptist Church!</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">“Melodies of Christmas” — Saturday, December 12, 4 PM to 6 PM, at Idlewild in Tampa.</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Meet at Faith at 2:15 PM, leaving at 2:30 PM. From the church property, you may drive separately or carpool to Idlewild in Tampa. The group plans to stop for dinner after the production before returning to Faith.</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Tickets: 36 reserved, first-come, first-served. Your ticket will be reserved when payment is received.</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Cost: $18 if paying by cash or check made payable to Faith Baptist Church (memo: “Idlewild Christmas Production”); $20 if paying online.</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Tickets will be available until Monday, November 16.</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\"><a href=\"https://fbcbelong.ccbchurch.com/goto/forms/745/responses/new\" target=\"_blank\" rel=\"noopener\">Sign up</a></p></div></div></div></div></div></div>"
  },
  {
+  "slug": "christmas-eve-candlelight-service",
+  "title": "Christmas Eve Candlelight Service",
+  "start_utc": "2026-12-24T19:00:00Z",
+  "end_utc": "2026-12-25T04:59:00Z",
+  "hide_end": true,
+  "date_text": "Thursday, December 24, 2026",
+  "location": {
+   "name": "",
+   "lines": []
+  },
+  "image": "/assets/img/315c77ae93-sanctuary-pulpit-lights_easter2026.jpg",
+  "image_dimensions": "2048x1365",
+  "og_image": "https://faithbaptistnpr.com/assets/img/315c77ae93-sanctuary-pulpit-lights_easter2026.jpg",
+  "description": "Sign up to reserve your seats for the whole family as we celebrate the gift of our Savior.",
+  "excerpt_html": "<div class=\"sqs-layout sqs-grid-12 columns-12\" data-layout-label=\"Post Body\" data-type=\"item\"><div class=\"row sqs-row\"><div class=\"col sqs-col-12 span-12\"><div class=\"sqs-block html-block sqs-block-html\" data-block-type=\"2\"><div class=\"sqs-block-content\"><div class=\"sqs-html-content\"><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Thursday, December 24 | 2:00pm | 4:00pm | 6:00pm</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Sign up to reserve your seats for the whole family as we celebrate the gift of our Savior.</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\"><a href=\"https://fbcbelong.ccbchurch.com/goto/forms/747/responses/new\" target=\"_blank\" rel=\"noopener\">Sign up</a></p></div></div></div></div></div></div>",
+  "body_html": "<div class=\"sqs-layout sqs-grid-12 columns-12\" data-layout-label=\"Post Body\" data-type=\"item\"><div class=\"row sqs-row\"><div class=\"col sqs-col-12 span-12\"><div class=\"sqs-block html-block sqs-block-html\" data-block-type=\"2\"><div class=\"sqs-block-content\"><div class=\"sqs-html-content\"><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Thursday, December 24 | 2:00pm | 4:00pm | 6:00pm</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\">Sign up to reserve your seats for the whole family as we celebrate the gift of our Savior.</p><p data-rte-preserve-empty=\"true\" style=\"white-space:pre-wrap;\"><a href=\"https://fbcbelong.ccbchurch.com/goto/forms/747/responses/new\" target=\"_blank\" rel=\"noopener\">Sign up</a></p></div></div></div></div></div></div>"
+ },
+ {
   "slug": "2027-fs-winter-retreat",
   "title": "2027 FS Winter Retreat",
   "start_utc": "2027-01-01T05:00:00Z",
